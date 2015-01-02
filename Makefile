@@ -73,7 +73,8 @@ diff:
 
 
 commit: $(draft).txt
-	echo \`\`\` > README.md
+	echo '## Important: Read CONTRIBUTING.md before submitting feedback or contributing' > README.md
+	echo \`\`\` >> README.md
 	cat $(draft).txt >> README.md
 	echo \`\`\` >> README.md
 	@read -p "Commit message: " msg; \
