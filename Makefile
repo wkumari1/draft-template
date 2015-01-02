@@ -73,8 +73,8 @@ diff:
 
 
 commit: $(draft).txt
-	@echo "Making README.md and commiting to github. Run 'make tag' to add and push a tag."
-	@echo '**Important: **Read CONTRIBUTING.md before submitting feedback or contributing' > README.md
+	@echo "Making README.md and committing and pushing to github. Run 'make tag' to add and push a tag."
+	@echo '**Important:** Read CONTRIBUTING.md before submitting feedback or contributing' > README.md
 	@echo \`\`\` >> README.md
 	@cat $(draft).txt >> README.md
 	@echo \`\`\` >> README.md
