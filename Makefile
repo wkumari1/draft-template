@@ -78,13 +78,15 @@ commit: $(draft).txt
 	@echo \`\`\` >> README.md
 	@cat $(draft).txt >> README.md
 	@echo \`\`\` >> README.md
-	@read -p "Commit message: " msg; \
+	read -p "Commit message: " msg; \
 	git commit -a -m "$$msg";
 	@git push
 
 tag:
+	@echo "Current tags:"
+	git tag
 	@read -p "Tag message (e.g: Version-00): " tag; \
-	git tag -a "$$tag" -m "$$tag"
+	git tag -a $$tag -m $$tag
 	@git push --tags
 
 ## Recipes
