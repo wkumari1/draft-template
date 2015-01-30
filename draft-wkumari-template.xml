@@ -41,37 +41,44 @@
       </address>
     </author>
 
-    <date day="23" month="October" year="2011" />
+    <date day="30" month="January" year="2015"/>
 
     <area>template</area>
 
     <workgroup>template</workgroup>
 
     <abstract>
-      <t>This document is a template and should be updated :-P.</t>
+      <t>This is my standard ID Template. </t>
+
+      <t>[ Ed note: Text inside square brackets ([]) are additional background
+      information, answers to freqently asked questions, or places where I'd
+      like some giudance. They will be removed before publication. RFC Editor:
+      Please remove these, or ask and I'll send you a clean version ]</t>
     </abstract>
   </front>
 
   <middle>
     <section title="Introduction">
-      <t>This document is a template. Here is a reference to an IANA object /
-      non-RFC or draft. (<xref target="IANA.AS_Numbers"></xref>).</t>
+      <t>This document is a template.</t>
 
-      <t><xref target="I-D.ietf-sidr-iana-objects"></xref> and this is a
-      reference to a draft.</t>
+      <t/>
+
+      <t>Here is a reference to an "external" (non-RFC / draft) thing: (<xref
+      target="IANA.AS_Numbers"/>). And this is a link to an ID:<xref
+      target="I-D.ietf-sidr-iana-objects"/>.</t>
 
       <section title="Requirements notation">
         <t>The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
         "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this
         document are to be interpreted as described in <xref
-        target="RFC2119"></xref>.</t>
+        target="RFC2119"/>.</t>
       </section>
     </section>
 
     <section title="Another section.">
       <t>Template.</t>
 
-      <t></t>
+      <t/>
     </section>
 
     <section title="IANA Considerations">
@@ -80,7 +87,7 @@
     </section>
 
     <section anchor="security" title="Security Considerations">
-       <t>TODO: Fill this out!</t>
+      <t>TODO: Fill this out!</t>
     </section>
 
     <section title="Acknowledgements">
@@ -102,7 +109,7 @@
             <organization>IANA</organization>
           </author>
 
-          <date />
+          <date/>
         </front>
       </reference>
     </references>

@@ -85,6 +85,7 @@ commit: $(draft).txt
 tag:
 	@echo "Current tags:"
 	git tag
+	@echo
 	@read -p "Tag message (e.g: Version-00): " tag; \
 	git tag -a $$tag -m $$tag
 	@git push --tags
