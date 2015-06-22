@@ -48,12 +48,16 @@
     <workgroup>template</workgroup>
 
     <abstract>
-      <t>This is my standard ID Template. </t>
+      <t>This is my standard ID Template.</t>
 
-      <t>[ Ed note: Text inside square brackets ([]) are additional background
-      information, answers to freqently asked questions, or places where I'd
-      like some giudance. They will be removed before publication. RFC Editor:
-      Please remove these, or ask and I'll send you a clean version ]</t>
+      <t>[ Ed note: Text inside square brackets ([]) is additional background
+      information, answers to freqently asked questions, general musings, etc.
+      They will be removed before publication.]</t>
+
+      <t>[ This document is being collaborated on in Github at:
+      https://github.com/wkumari/&lt;TEMPLATE&gt;. The most recent version of
+      the document, open issues, etc should all be available here. The authors
+      (gratefully) acept pull requests ]</t>
     </abstract>
   </front>
 
