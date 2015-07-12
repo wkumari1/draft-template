@@ -17,11 +17,14 @@ Abstract
 
    This is my standard ID Template.
 
-   [ Ed note: Text inside square brackets ([]) are additional background
-   information, answers to freqently asked questions, or places where
-   I'd like some giudance.  They will be removed before publication.
-   RFC Editor: Please remove these, or ask and I'll send you a clean
-   version ]
+   [ Ed note: Text inside square brackets ([]) is additional background
+   information, answers to freqently asked questions, general musings,
+   etc.  They will be removed before publication.]
+
+   [ This document is being collaborated on in Github at:
+   https://github.com/__URL__. The most recent version of the document,
+   open issues, etc should all be available here.  The authors
+   (gratefully) acept pull requests ]
 
 Status of This Memo
 
@@ -49,9 +52,6 @@ Copyright Notice
    Provisions Relating to IETF Documents
    (http://trustee.ietf.org/license-info) in effect on the date of
    publication of this document.  Please review these documents
-   carefully, as they describe your rights and restrictions with respect
-   to this document.  Code Components extracted from this document must
-   include Simplified BSD License text as described in Section 4.e of
 
 
 
@@ -60,6 +60,9 @@ Kumari                   Expires August 3, 2015                 [Page 1]
 Internet-Draft                  template                    January 2015
 
 
+   carefully, as they describe your rights and restrictions with respect
+   to this document.  Code Components extracted from this document must
+   include Simplified BSD License text as described in Section 4.e of
    the Trust Legal Provisions and are provided without warranty as
    described in the Simplified BSD License.
 
@@ -70,7 +73,7 @@ Table of Contents
    2.  Another section.  . . . . . . . . . . . . . . . . . . . . . .   2
    3.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .   2
    4.  Security Considerations . . . . . . . . . . . . . . . . . . .   2
-   5.  Acknowledgements  . . . . . . . . . . . . . . . . . . . . . .   2
+   5.  Acknowledgements  . . . . . . . . . . . . . . . . . . . . . .   3
    6.  References  . . . . . . . . . . . . . . . . . . . . . . . . .   3
      6.1.  Normative References  . . . . . . . . . . . . . . . . . .   3
      6.2.  Informative References  . . . . . . . . . . . . . . . . .   3
@@ -103,9 +106,6 @@ Table of Contents
 
    TODO: Fill this out!
 
-5.  Acknowledgements
-
-   The authors wish to thank some folk.
 
 
 
@@ -115,6 +115,10 @@ Kumari                   Expires August 3, 2015                 [Page 2]
 
 Internet-Draft                  template                    January 2015
 
+
+5.  Acknowledgements
+
+   The authors wish to thank some folk.
 
 6.  References
 
@@ -151,10 +155,6 @@ Author's Address
    US
 
    Email: warren@kumari.net
-
-
-
-
 
 
 
