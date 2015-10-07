@@ -43,10 +43,6 @@
 
     <date day="30" month="January" year="2015"/>
 
-    <area>template</area>
-
-    <workgroup>template</workgroup>
-
     <abstract>
       <t>This is my standard ID Template.</t>
 
