@@ -54,7 +54,6 @@ default:
 	@echo "  diff: Unsurprisingly, the diff..."
 	@echo
 
-
 .PHONY: latest txt html pdf submit diff clean update ghpages
 
 latest: txt html
@@ -82,7 +81,7 @@ diff:
 
 
 commit: $(draft).txt README.md
-	@echo "Making README.md and committing and pushing to github. Run 'make tag' to add and push a tag."
+	@echo "Making README.md, committing and pushing to github. Run 'make tag' to add and push a tag."
 	@echo '**Important:** Read CONTRIBUTING.md before submitting feedback or contributing' > README.md
 	@echo \`\`\` >> README.md
 	@cat $(draft).txt >> README.md
